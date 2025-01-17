@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Top Cali Protection</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            line-height: 1.6;
+
+        }
+
+        header {
+
+            background: url('hero-image.jpg') no-repeat center center/cover;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 100px 20px;
+
+        }
+
+        header h1 {
+
+            font-size: 2.5rem;
+
+            margin: 0;
+
+        }
+
+        header p {
+
+            font-size: 1.2rem;
+
+            margin: 10px 0 20px;
+
+        }
+
+        header a {
+
+            display: inline-block;
+
+            text-decoration: none;
+
+            color: white;
+
+            background: #ff5733;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            margin: 5px;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: center;
+
+            background: #333;
+
+            color: white;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 10px 20px;
+
+            display: block;
+
+        }
+
+        nav a:hover {
+
+            background: #ff5733;
+
+        }
+
+        section {
+
+            padding: 20px;
+
+        }
+
+        .cta {
+
+            background: #ff5733;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+
+        .services, .case-studies {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: space-between;
+
+        }
+
+        .services div, .case-studies div {
+
+            flex: 1 1 calc(33.333% - 20px);
+
+            margin: 10px;
+
+            background: #f4f4f4;
+
+            padding: 15px;
+
+            border-radius: 5px;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            padding: 20px;
+
+            background: #333;
+
+            color: white;
+
+        }
+
+        footer a {
+
+            color: #ff5733;
+
+            text-decoration: none;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Top Cali Protection</h1>
+
+        <p>Wildfire Defense Solutions You Can Trust</p>
+
+        <a href="#services">Discover Our Solutions</a>
+
+        <a href="#contact">Get a Free Quote</a>
+
+    </header>
+
+
+
+    <nav>
+
+        <a href="#about">About Us</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#case-studies">Case Studies</a>
+
+        <a href="#resources">Resources</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>At Top Cali Protection, we specialize in designing and installing custom wildfire protection systems. From residential to commercial properties, we deliver solutions that safeguard your investments and give you peace of mind.</p>
+
+    </section>
+
+
+
+    <section id="services">
+
+        <h2>Our Wildfire Defense Systems</h2>
+
+        <div class="services">
+
+            <div>
+
+                <h3>Fire Sprinkler Systems</h3>
+
+                <p>Custom-designed systems for homes and businesses. Prices start at $20,000 for residential installations.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Water Pump Systems</h3>
+
+                <p>Ensure consistent water pressure during fire emergencies with automatic activation and power backup options.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Integrated Solutions</h3>
+
+                <p>Combine sprinklers, water pumps, generators, and tanks for a complete wildfire defense package.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="case-studies">
+
+        <h2>Case Studies</h2>
+
+        <div class="case-studies">
+
+            <div>
+
+                <h3>Residential Success</h3>
+
+                <p>A Ventura County homeowner’s property was saved during a wildfire, thanks to our fire sprinkler and generator system.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Commercial Success</h3>
+
+                <p>We protected a solar farm in San Diego with a scalable fire protection solution tailored to their needs.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="resources">
+
+        <h2>Educational Resources</h2>
+
+        <p>Learn how to prepare your property for wildfires, maintain your system, and stay informed with the latest fire safety insights.</p>
+
+    </section>
+
+
+
+    <section id="contact" class="cta">
+
+        <h2>Get Started Today</h2>
+
+        <p>Call us at <strong>323-828-2379</strong> or email us at <a href="mailto:mikk@topcaliprotection.com">mikk@topcaliprotection.com</a></p>
+
+        <p>Request a free consultation to assess your property’s wildfire defense needs.</p>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2025 Top Cali Protection | <a href="#contact">Contact Us</a></p>
+
+    </footer>
+
+</body>
+
+</html>
